@@ -1,16 +1,84 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Ji-Eric/chess/master/assets/banner.png" 
+       alt="Chess Tournament Banner" 
+       width="800">
+  <h1>
+    🏰🏆🎠 𝐄𝐫𝐢𝐜'𝐬 𝐑𝐨𝐲𝐚𝐥 𝐂𝐡𝐞𝐬𝐬 𝐎𝐩𝐞𝐧 🏰🏆🎠
+  </h1>
+  <h3>
+    ❌ ᴘᴜꜱʜ ᴘᴀᴡɴꜱ | ᴅᴏᴅɢᴇ ᴛʜ𝐞 ꜰᴏʀᴋ | ᴄᴏᴍᴍɪᴛ ᴛᴏ ᴛʜ𝐞 ᴡɪɴ | ʀᴀɪꜱᴇ ᴀɴ ɪꜱꜱᴜ𝐞 ᴛᴏ ʙᴏx ᴛʜ𝐞 ᴋɪɴɢ ɪɴ ❌
+  </h3>
+</div>
 
-<!--
-**Ji-Eric/Ji-Eric** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+---
+## ✅ 𝐇𝐨𝐰 𝐓𝐨 𝐏𝐥𝐚𝐲 ✅
+1) Submitting a move as a GitHub issue triggers a GitHub Action. 
+2) The Action runs a Python script that updates the README with the new board state.
+
+
+
+## ⚜╬═ 𝐈𝐭’𝐬 𝐲𝐨𝐮𝐫 𝐭𝐮𝐫𝐧! ═╬⚜ <!-- BEGIN TURN --><!-- END TURN -->
+
+<!-- BEGIN CHESS BOARD -->
+|   | H | G | F | E | D | C | B | A |   |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **1** | <img src="img/white/rook.svg" width=50px> | <img src="img/white/knight.svg" width=50px> | <img src="img/white/bishop.svg" width=50px> | <img src="img/white/king.svg" width=50px> | <img src="img/white/queen.svg" width=50px> | <img src="img/white/bishop.svg" width=50px> | <img src="img/white/knight.svg" width=50px> | <img src="img/white/rook.svg" width=50px> | **1** |
+| **2** | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | **2** |
+| **3** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **3** |
+| **4** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **4** |
+| **5** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **5** |
+| **6** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **6** |
+| **7** | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | **7** |
+| **8** | <img src="img/black/rook.svg" width=50px> | <img src="img/black/knight.svg" width=50px> | <img src="img/black/bishop.svg" width=50px> | <img src="img/black/king.svg" width=50px> | <img src="img/black/queen.svg" width=50px> | <img src="img/black/bishop.svg" width=50px> | <img src="img/black/knight.svg" width=50px> | <img src="img/black/rook.svg" width=50px> | **8** |
+|   | **H** | **G** | **F** | **E** | **D** | **C** | **B** | **A** |   |
+<!-- END CHESS BOARD -->
+
+---
+
+## 🛜 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐌𝐨𝐯𝐞𝐬 🛜:
+<!-- BEGIN MOVES LIST -->
+|  FROM  | TO (Just click a link!) |
+| :----: | :---------------------- |
+| **A7** | [A5](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A7+to+A5), [A6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A7+to+A6) |
+| **B7** | [B5](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+B5), [B6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+B6) |
+| **B8** | [A6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B8+to+A6), [C6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B8+to+C6) |
+| **C7** | [C5](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C7+to+C5), [C6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C7+to+C6) |
+| **D7** | [D5](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D7+to+D5), [D6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D7+to+D6) |
+| **E7** | [E5](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E7+to+E5), [E6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E7+to+E6) |
+| **F7** | [F5](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F7+to+F5), [F6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F7+to+F6) |
+| **G7** | [G5](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G7+to+G5), [G6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G7+to+G6) |
+| **G8** | [F6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G8+to+F6), [H6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G8+to+H6) |
+| **H7** | [H5](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H7+to+H5), [H6](https://github.com/Ji-Eric/chess/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H7+to+H6) |
+<!-- END MOVES LIST -->
+
+
+
+<details>
+  <summary>Last 5 Moves</summary>
+<!-- BEGIN LAST MOVES -->
+
+| Move | Author |
+| :--: | :----- |
+| `D2` to `D4` | [ @Ji-Eric](https://github.com/Ji-Eric) |
+| `Start game` | [ @Ji-Eric](https://github.com/Ji-Eric) |
+
+<!-- END LAST MOVES -->
+</details>
+
+<details>
+  <summary>Top 10 Most moves across all games</summary>
+<!-- BEGIN TOP MOVES -->
+
+| Total moves |  User  |
+| :---------: | :----- |
+| 1 | [@Ji-Eric](https://github.com/Ji-Eric) |
+
+<!-- END TOP MOVES -->
+</details>
+
+---
+
+This tournament uses the [marcizhu/readme-chess](https://github.com/marcizhu/readme-chess) GitHub Actions template, licensed under the [MIT License](https://github.com/marcizhu/readme-chess/blob/main/LICENSE).
