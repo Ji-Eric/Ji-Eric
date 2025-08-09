@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Ji-Eric/chess/master/assets/banner.png" 
+  <img src="https://raw.githubusercontent.com/Ji-Eric/Ji-Eric/master/assets/banner.png" 
        alt="Chess Tournament Banner" 
        width="800">
   <h1>
